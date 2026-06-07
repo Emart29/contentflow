@@ -1,0 +1,17 @@
+langgraph
+langchain-anthropic
+langchain-openai
+langchain-google-genai
+langchain-groq
+langchain-ollama
+langchain-core
+pydantic
+httpx
+beautifulsoup4
+python-dotenv
+fastapi
+uvicorn
+sqlmodel
+pytest
+pytest-asyncio
+langgraph-checkpoint-sqlite

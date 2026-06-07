@@ -1,0 +1,73 @@
+{
+  "run_id": "727be095-7122-4812-b6c0-a9ffafbc4bdb",
+  "status": "review",
+  "posts": [
+    {
+      "platform": "linkedin",
+      "content": "Boosting metabolism can be a challenge for busy adults. A new formula is now available, claiming to increase metabolism by 47% and deliver results for 89% of users within the first month. Compared favorably to other brands, this supplement is designed to be easy to take and gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 382,
+      "hashtags": [
+        "MetabolismSupport",
+        "HealthAndWellness",
+        "SupplementSolutions"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "platform": "twitter",
+      "content": "Boost metabolism by 47% with a new support formula, showing results for 89% of users within a month. Learn more about this easy-to-take supplement.",
+      "char_count": 147,
+      "hashtags": [
+        "MetabolismSupport"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "platform": "instagram",
+      "content": "Boost your metabolism with a new formula designed for busy adults. This innovative supplement is easy to take and gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 221,
+      "hashtags": [
+        "metabolismboost",
+        "healthsupplement",
+        "wellnesssupport",
+        "busyliving",
+        "naturalsolutions"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "flags": [
+    {
+      "reason": "SENSITIVE_TOPICS_DETECTED",
+      "stage": "extract",
+      "detail": "health claims, pricing mentions, competitor names, unverified statistics"
+    },
+    {
+      "reason": "SENSITIVE_TOPICS_PRESENT",
+      "stage": "validate",
+      "detail": "health claims, pricing mentions, competitor names, unverified statistics"
+    }
+  ],
+  "raw_extraction": {
+    "key_ideas": [
+      "A new metabolism support formula is available for busy adults",
+      "The formula is claimed to boost metabolism by 47% and show results within the first month for 89% of users",
+      "The product is compared favorably to competitor brands NutriBoost and VitaCore",
+      "The supplement is said to be easy to take, gentle on the stomach, and backed by a satisfaction guarantee"
+    ],
+    "primary_audience": "The target reader is a busy adult looking for a simple and effective way to support their metabolism and overall health.",
+    "content_tone": "promotional",
+    "suggested_cta": "Visit the product website to learn more and take advantage of the limited time offer",
+    "sensitive_topics": [
+      "health claims",
+      "pricing mentions",
+      "competitor names",
+      "unverified statistics"
+    ],
+    "confidence": "medium",
+    "notes": "The content lacks transparent evidence for the specific performance numbers and medical endorsement language, which may impact its credibility."
+  },
+  "duration_seconds": 6.374962568283081,
+  "llm_provider": "groq",
+  "llm_model": "llama-3.3-70b-versatile"
+}

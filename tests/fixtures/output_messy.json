@@ -1,0 +1,16 @@
+{
+  "run_id": "32c96a8a-0cb9-4ab8-acc7-b04da402dd97",
+  "status": "escalated",
+  "posts": [],
+  "flags": [
+    {
+      "reason": "INSUFFICIENT_CONTENT",
+      "stage": "ingest",
+      "detail": "[Observed] 37 words found, minimum is 200"
+    }
+  ],
+  "raw_extraction": null,
+  "duration_seconds": 0.7359654903411865,
+  "llm_provider": "groq",
+  "llm_model": "llama-3.3-70b-versatile"
+}
