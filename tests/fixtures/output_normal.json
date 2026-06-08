@@ -1,37 +1,37 @@
 {
-  "run_id": "b605deac-905a-4a83-ba47-659e98b544bc",
+  "run_id": "dbe52f28-1cc2-4a30-a568-3d487c5ba512",
   "status": "approved",
   "posts": [
     {
       "platform": "linkedin",
-      "content": "What if marketing operations could be enhanced across all channels? AI is making this a reality. By leveraging AI to handle volume and pairing it with human quality control, businesses can optimize their marketing strategies. Explore how AI can be integrated into your marketing strategy to stay ahead of the competition.",
-      "char_count": 321,
+      "content": "What if AI could amplify human creativity and judgment in marketing? By handling volume and leveraging data, AI can become a force multiplier for teams, driving business growth through speed, scale, and better use of data. Explore how your team can leverage AI marketing trends to drive business growth and stay ahead of the competition.",
+      "char_count": 337,
       "hashtags": [
         "AIinMarketing",
-        "MarketingInnovation",
-        "DigitalTransformation"
+        "MarketingTrends",
+        "BusinessGrowth"
       ],
       "confidence": "high"
     },
     {
       "platform": "twitter",
-      "content": "AI enhances marketing ops across channels, handling volume while humans focus on quality control. Explore AI's potential.",
-      "char_count": 121,
+      "content": "AI is most effective when it handles volume, freeing humans for quality control. Leverage AI marketing trends to drive business growth.",
+      "char_count": 135,
       "hashtags": [
-        "#AInMarketing"
+        "AIMarketing"
       ],
       "confidence": "high"
     },
     {
       "platform": "instagram",
-      "content": "Revolutionize your marketing strategy with AI. By leveraging AI to handle volume and pairing it with human quality control, businesses can optimize their marketing operations and stay competitive.",
-      "char_count": 196,
+      "content": "What if AI could amplify human creativity? The most effective teams use AI as a force multiplier, driving business growth through speed, scale, and data-driven decisions. Explore how your team can leverage AI marketing trends to drive business growth and stay ahead of the competition.",
+      "char_count": 285,
       "hashtags": [
-        "AIinMarketing",
-        "MarketingAutomation",
-        "DigitalTransformation",
-        "MarketingInnovation",
-        "BusinessGrowth"
+        "AIMarketing",
+        "MarketingTrends",
+        "ArtificialIntelligence",
+        "BusinessGrowth",
+        "DigitalMarketing"
       ],
       "confidence": "high"
     }
@@ -39,17 +39,18 @@
   "flags": [],
   "raw_extraction": {
     "key_ideas": [
-      "AI is being used to enhance marketing operations across various channels",
       "AI is most effective when it handles volume while humans handle quality control",
-      "AI marketing trends include generative AI, smarter lead prioritization, conversational AI, real-time personalization, and autonomous campaign optimization"
+      "AI marketing trends include generative AI for content production, smarter lead prioritization, conversational AI for customer engagement, real-time personalization, and autonomous campaign optimization",
+      "The most effective teams treat AI as a force multiplier for human creativity and judgment",
+      "AI marketing in 2025 is defined by speed, scale, and better use of data"
     ],
-    "primary_audience": "The target reader is likely a marketing professional or business leader looking to stay competitive in the industry.",
+    "primary_audience": "The target reader is likely a marketing professional or business leader looking to stay competitive in the field of AI marketing.",
     "content_tone": "professional",
-    "suggested_cta": "Explore how AI can be integrated into your marketing strategy to stay ahead of the competition.",
+    "suggested_cta": "Explore how your team can leverage AI marketing trends to drive business growth and stay ahead of the competition.",
     "sensitive_topics": [],
     "confidence": "high"
   },
-  "duration_seconds": 5.49582576751709,
+  "duration_seconds": 6.44046425819397,
   "llm_provider": "groq",
   "llm_model": "llama-3.3-70b-versatile"
 }

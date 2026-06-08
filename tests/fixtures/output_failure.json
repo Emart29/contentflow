@@ -1,11 +1,11 @@
 {
-  "run_id": "85063e76-1be9-43e3-8a3b-2e7c7156c515",
+  "run_id": "37f5f2fd-7648-4bf3-9568-d36069996673",
   "status": "review",
   "posts": [
     {
       "platform": "linkedin",
-      "content": "What if a simple supplement could boost metabolism by 47%? A new formula is now available, showing results for 89% of users within the first month. Backed by a satisfaction guarantee, this easy-to-take supplement is gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
-      "char_count": 323,
+      "content": "Are you looking for a way to boost your metabolism and improve your overall health and wellness? A new metabolism support formula is now available, designed to help busy adults achieve their health goals. With a claimed 47% increase in metabolism and results for 89% of users within the first month, this formula is a promising solution. Compared favorably to other brands, it's also easy to take and gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 508,
       "hashtags": [
         "MetabolismSupport",
         "HealthAndWellness",
@@ -15,8 +15,8 @@
     },
     {
       "platform": "twitter",
-      "content": "Boost metabolism by 47% with a new support formula, showing results for 89% of users within a month. Learn more and take advantage of the limited time offer",
-      "char_count": 156,
+      "content": "Boost metabolism by 47% in just 1 month with a new support formula designed for busy adults",
+      "char_count": 91,
       "hashtags": [
         "#MetabolismSupport"
       ],
@@ -24,14 +24,14 @@
     },
     {
       "platform": "instagram",
-      "content": "Boost your metabolism with a new, easy-to-take formula designed for busy adults. Backed by a satisfaction guarantee, this supplement is a simple way to support overall health. Visit the product website to learn more and take advantage of the limited time offer",
-      "char_count": 260,
+      "content": "Boost your metabolism with a new, easy-to-take formula designed for busy adults. Backed by a satisfaction guarantee, this supplement is a simple and effective way to support overall health and wellness. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 287,
       "hashtags": [
-        "metabolismSupport",
-        "healthAndWellness",
-        "supplementSolutions",
-        "busyAdultHealth",
-        "naturalEnergyBoost"
+        "metabolismsupport",
+        "healthandwellness",
+        "supplementforbusylife",
+        "metabolismbooster",
+        "easyhealthsolutions"
       ],
       "confidence": "medium"
     }
@@ -55,7 +55,7 @@
       "The product is compared favorably to competitor brands NutriBoost and VitaCore",
       "The supplement is said to be easy to take, gentle on the stomach, and backed by a satisfaction guarantee"
     ],
-    "primary_audience": "The target reader is a busy adult looking for a simple and effective way to support their metabolism and overall health.",
+    "primary_audience": "The target reader is a busy adult looking for a simple and effective way to support their metabolism and improve their overall health and wellness.",
     "content_tone": "promotional",
     "suggested_cta": "Visit the product website to learn more and take advantage of the limited time offer",
     "sensitive_topics": [
@@ -64,9 +64,10 @@
       "competitor names",
       "unverified statistics"
     ],
-    "confidence": "medium"
+    "confidence": "medium",
+    "notes": "The content is promotional in nature and lacks transparent evidence to support the claims made, which may impact its credibility."
   },
-  "duration_seconds": 6.002721309661865,
+  "duration_seconds": 7.997185230255127,
   "llm_provider": "groq",
   "llm_model": "llama-3.3-70b-versatile"
 }

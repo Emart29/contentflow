@@ -1,5 +1,5 @@
 {
-  "run_id": "f2270249-6370-4f8b-b2c6-13fda53b0b6d",
+  "run_id": "a1ab884a-dcdb-4183-979a-ef7dad4a811d",
   "status": "escalated",
   "posts": [],
   "flags": [
@@ -10,7 +10,7 @@
     }
   ],
   "raw_extraction": null,
-  "duration_seconds": 1.1143798828125,
+  "duration_seconds": 1.7607347965240479,
   "llm_provider": "groq",
   "llm_model": "llama-3.3-70b-versatile"
 }
