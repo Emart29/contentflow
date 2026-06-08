@@ -6,7 +6,8 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from agent.graph import run_pipeline
+from agent.graph import run_pipeline_from_blog_post
+from models.input import BlogPost
 from agent.llm import get_model_info, get_provider_name
 from db.store import RunLog, get_recent_runs, get_run, init_db, log_run
 from models.input import RunConfig
@@ -48,7 +49,7 @@ def startup() -> None:
 
 
 @app.post("/run", response_model=PipelineResult, status_code=200)
-def run(request: RunRequest) -> PipelineResult:
+async def run(request: RunRequest) -> PipelineResult:
     """Run the ContentFlow pipeline for a URL."""
     if not request.url.startswith(("http://", "https://")):
         raise HTTPException(status_code=422, detail="url must start with http:// or https://")
@@ -61,7 +62,7 @@ def run(request: RunRequest) -> PipelineResult:
             platforms=request.platforms,
             require_human_review=request.require_human_review,
         )
-        result = run_pipeline(request.url, config)
+        result = await run_pipeline_from_blog_post(BlogPost(url=request.url), config)
         log_run(result, request.url, request.client_name)
         return result
     except HTTPException:
