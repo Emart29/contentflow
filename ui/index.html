@@ -227,7 +227,7 @@
         return {
           url: document.getElementById("url").value.trim(),
           client_name: document.getElementById("clientName").value.trim(),
-          brand_voice: document.getElementById("brandVoice").value.trim(),
+          brand_voice: document.getElementById("brandVoice").value.trim() || "Professional, data-driven, direct",
           platforms,
           blocked_terms: blockedTerms,
           require_human_review: document.getElementById("requireHumanReview").checked,
