@@ -54,7 +54,7 @@ async def extract(state: ContentFlowState) -> dict:
                     reason="EXTRACTION_PARSE_ERROR",
                     stage="extract",
                     detail=response.content[:200],
-                ).dict()
+                ).model_dump()
             ],
             "routing_decision": "escalated",
             "stage": "extract_failed",
@@ -69,7 +69,7 @@ async def extract(state: ContentFlowState) -> dict:
                 reason="EXTRACTION_INCOMPLETE",
                 stage="extract",
                 detail=f"Missing: {missing_fields}",
-            ).dict()
+            ).model_dump()
         )
 
     if extraction.get("confidence") == "low":
@@ -78,7 +78,7 @@ async def extract(state: ContentFlowState) -> dict:
                 reason="LOW_CONFIDENCE_EXTRACTION",
                 stage="extract",
                 detail=extraction.get("notes", "No detail provided"),
-            ).dict()
+            ).model_dump()
         )
 
     sensitive_topics = extraction.get("sensitive_topics") or []
@@ -88,7 +88,7 @@ async def extract(state: ContentFlowState) -> dict:
                 reason="SENSITIVE_TOPICS_DETECTED",
                 stage="extract",
                 detail=", ".join(sensitive_topics),
-            ).dict()
+            ).model_dump()
         )
 
     return {

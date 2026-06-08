@@ -5,8 +5,8 @@ import json
 import time
 from pathlib import Path
 
-from agent.graph import run_pipeline
-from models.input import RunConfig
+from agent.graph import run_pipeline_from_blog_post
+from models.input import BlogPost, RunConfig
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,11 +14,11 @@ BATCH_RESULTS_JSON = ROOT / "scripts" / "batch_results.json"
 BATCH_RESULTS_MD = ROOT / "BATCH_TEST_RESULTS.md"
 
 URLS = [
-    "https://www.singlegrain.com/blog/ms/ai-marketing-trends/",
     "https://www.singlegrain.com/blog/ms/chatgpt-marketing/",
-    "https://www.singlegrain.com/content-marketing/content-marketing-strategy/",
-    "https://www.singlegrain.com/blog/ms/ai-tools-for-marketing/",
-    "https://www.singlegrain.com/seo/advanced-seo-strategy/",
+    "https://www.singlegrain.com/blog/ms/ai-seo/",
+    "https://www.singlegrain.com/blog/ms/content-marketing/",
+    "https://www.singlegrain.com/blog/ms/social-media-marketing/",
+    "https://www.singlegrain.com/blog/ms/email-marketing/",
 ]
 
 CONFIG = RunConfig(
@@ -98,7 +98,7 @@ async def main() -> int:
     for index, url in enumerate(URLS, start=1):
         print(f"[{index}/{len(URLS)}] Running {url}")
         start = time.perf_counter()
-        result = await asyncio.to_thread(run_pipeline, url, CONFIG)
+        result = await run_pipeline_from_blog_post(BlogPost(url=url), CONFIG)
         elapsed = time.perf_counter() - start
         row = row_from_result(index, url, result, elapsed)
         rows.append(row)

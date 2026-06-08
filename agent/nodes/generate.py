@@ -102,7 +102,7 @@ async def generate(state: ContentFlowState) -> dict:
                     reason="GENERATION_ERROR",
                     stage="generate",
                     detail=f"{platform}: {response}",
-                ).dict()
+                ).model_dump()
             )
             continue
 
@@ -114,7 +114,7 @@ async def generate(state: ContentFlowState) -> dict:
                     reason="GENERATION_PARSE_ERROR",
                     stage="generate",
                     detail=f"{platform}: {response.content[:200]}",
-                ).dict()
+                ).model_dump()
             )
             continue
 
@@ -125,7 +125,7 @@ async def generate(state: ContentFlowState) -> dict:
                     reason="GENERATION_INCOMPLETE",
                     stage="generate",
                     detail=f"{platform}: Missing: {missing_fields}",
-                ).dict()
+                ).model_dump()
             )
             continue
 
@@ -153,7 +153,7 @@ async def generate(state: ContentFlowState) -> dict:
                         reason="GENERATION_PARSE_ERROR",
                         stage="generate",
                         detail=f"{platform}: {retry_response.content[:200]}",
-                    ).dict()
+                    ).model_dump()
                 )
             else:
                 retry_missing = sorted(REQUIRED_GENERATION_FIELDS - set(retry_generated))
@@ -169,7 +169,7 @@ async def generate(state: ContentFlowState) -> dict:
                         reason="TWITTER_TRUNCATED",
                         stage="generate",
                         detail="twitter: Content exceeded 270 characters after retry",
-                    ).dict()
+                    ).model_dump()
                 )
 
         try:
@@ -188,11 +188,11 @@ async def generate(state: ContentFlowState) -> dict:
                     reason="GENERATION_VALIDATION_ERROR",
                     stage="generate",
                     detail=f"{platform}: {exc}",
-                ).dict()
+                ).model_dump()
             )
 
     update = {
-        "posts": [post.dict() for post in social_posts],
+        "posts": [post.model_dump() for post in social_posts],
         "flags": flags,
         "stage": "generate_complete",
     }
@@ -204,7 +204,7 @@ async def generate(state: ContentFlowState) -> dict:
                 reason="ALL_GENERATION_FAILED",
                 stage="generate",
                 detail="No platforms generated a valid post",
-            ).dict(),
+            ).model_dump(),
         ]
         update["routing_decision"] = "escalated"
 

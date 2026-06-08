@@ -25,7 +25,7 @@ def _fetch_failed(status_code: int | str) -> dict:
                 reason="FETCH_FAILED",
                 stage="ingest",
                 detail=f"HTTP {status_code}",
-            ).dict()
+            ).model_dump()
         ],
         "routing_decision": "escalated",
         "stage": "ingest_failed",
@@ -48,7 +48,7 @@ async def ingest(state: ContentFlowState) -> dict:
                             reason="INSUFFICIENT_CONTENT",
                             stage="ingest",
                             detail=f"[Observed] {word_count} words found, minimum is 200",
-                        ).dict()
+                        ).model_dump()
                     ],
                     "routing_decision": "escalated",
                     "stage": "ingest_failed",
@@ -65,7 +65,7 @@ async def ingest(state: ContentFlowState) -> dict:
 
         url = state["blog_post"]["url"]
 
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        async with httpx.AsyncClient(timeout=10.0, follow_redirects=True) as client:
             try:
                 response = await client.get(url)
             except httpx.HTTPError as exc:
@@ -92,7 +92,7 @@ async def ingest(state: ContentFlowState) -> dict:
                         reason="INSUFFICIENT_CONTENT",
                         stage="ingest",
                         detail=f"[Observed] {word_count} words found, minimum is 200",
-                    ).dict()
+                    ).model_dump()
                 ],
                 "routing_decision": "escalated",
                 "stage": "ingest_failed",
@@ -113,7 +113,7 @@ async def ingest(state: ContentFlowState) -> dict:
                     reason="INGEST_ERROR",
                     stage="ingest",
                     detail=str(exc),
-                ).dict()
+                ).model_dump()
             ],
             "routing_decision": "escalated",
             "stage": "ingest_failed",

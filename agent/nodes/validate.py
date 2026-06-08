@@ -28,7 +28,7 @@ def _append_flag(flags: list[dict], reason: str, detail: str) -> None:
             reason=reason,
             stage="validate",
             detail=detail,
-        ).dict()
+        ).model_dump()
     )
 
 

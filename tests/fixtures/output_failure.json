@@ -1,11 +1,11 @@
 {
-  "run_id": "727be095-7122-4812-b6c0-a9ffafbc4bdb",
+  "run_id": "85063e76-1be9-43e3-8a3b-2e7c7156c515",
   "status": "review",
   "posts": [
     {
       "platform": "linkedin",
-      "content": "Boosting metabolism can be a challenge for busy adults. A new formula is now available, claiming to increase metabolism by 47% and deliver results for 89% of users within the first month. Compared favorably to other brands, this supplement is designed to be easy to take and gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
-      "char_count": 382,
+      "content": "What if a simple supplement could boost metabolism by 47%? A new formula is now available, showing results for 89% of users within the first month. Backed by a satisfaction guarantee, this easy-to-take supplement is gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 323,
       "hashtags": [
         "MetabolismSupport",
         "HealthAndWellness",
@@ -15,23 +15,23 @@
     },
     {
       "platform": "twitter",
-      "content": "Boost metabolism by 47% with a new support formula, showing results for 89% of users within a month. Learn more about this easy-to-take supplement.",
-      "char_count": 147,
+      "content": "Boost metabolism by 47% with a new support formula, showing results for 89% of users within a month. Learn more and take advantage of the limited time offer",
+      "char_count": 156,
       "hashtags": [
-        "MetabolismSupport"
+        "#MetabolismSupport"
       ],
       "confidence": "medium"
     },
     {
       "platform": "instagram",
-      "content": "Boost your metabolism with a new formula designed for busy adults. This innovative supplement is easy to take and gentle on the stomach. Visit the product website to learn more and take advantage of the limited time offer",
-      "char_count": 221,
+      "content": "Boost your metabolism with a new, easy-to-take formula designed for busy adults. Backed by a satisfaction guarantee, this supplement is a simple way to support overall health. Visit the product website to learn more and take advantage of the limited time offer",
+      "char_count": 260,
       "hashtags": [
-        "metabolismboost",
-        "healthsupplement",
-        "wellnesssupport",
-        "busyliving",
-        "naturalsolutions"
+        "metabolismSupport",
+        "healthAndWellness",
+        "supplementSolutions",
+        "busyAdultHealth",
+        "naturalEnergyBoost"
       ],
       "confidence": "medium"
     }
@@ -64,10 +64,9 @@
       "competitor names",
       "unverified statistics"
     ],
-    "confidence": "medium",
-    "notes": "The content lacks transparent evidence for the specific performance numbers and medical endorsement language, which may impact its credibility."
+    "confidence": "medium"
   },
-  "duration_seconds": 6.374962568283081,
+  "duration_seconds": 6.002721309661865,
   "llm_provider": "groq",
   "llm_model": "llama-3.3-70b-versatile"
 }

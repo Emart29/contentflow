@@ -1,0 +1,443 @@
+[
+  {
+    "index": 1,
+    "url": "https://www.singlegrain.com/blog/ms/chatgpt-marketing/",
+    "url_truncated": ".../chatgpt-marketing",
+    "status": "review",
+    "posts_generated": 3,
+    "flags_count": 2,
+    "linkedin_chars": 257,
+    "twitter_chars": 109,
+    "instagram_chars": 221,
+    "all_confidences": [
+      "high",
+      "high",
+      "high"
+    ],
+    "duration_seconds": 7.793301820755005,
+    "llm_provider": "groq",
+    "result": {
+      "run_id": "60c32d4c-b8f3-4b50-8c4d-9614becff01b",
+      "status": "review",
+      "posts": [
+        {
+          "platform": "linkedin",
+          "content": "What if marketers could generate 50% more content ideas and enhance user experience by 30%? ChatGPT can be used as a versatile tool to achieve these results. Explore how ChatGPT can enhance your marketing strategy and get started with creative content ideas",
+          "char_count": 257,
+          "hashtags": [
+            "MarketingInnovation",
+            "ConversationalAI",
+            "ContentCreation"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "twitter",
+          "content": "ChatGPT can generate 100s of content ideas & enhance user experience. Get started with creative content ideas",
+          "char_count": 109,
+          "hashtags": [
+            "#ChatGPT"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "instagram",
+          "content": "Boost marketing results with ChatGPT. This AI tool can generate 100s of content ideas and enhance user experience by 30%. Explore how ChatGPT can enhance your marketing strategy and get started with creative content ideas",
+          "char_count": 221,
+          "hashtags": [
+            "ChatGPTMarketing",
+            "AIforMarketers",
+            "ContentCreation",
+            "MarketingStrategy",
+            "ConversationalAI"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "flags": [
+        {
+          "reason": "SENSITIVE_TOPICS_DETECTED",
+          "stage": "extract",
+          "detail": "competitor names"
+        },
+        {
+          "reason": "SENSITIVE_TOPICS_PRESENT",
+          "stage": "validate",
+          "detail": "competitor names"
+        }
+      ],
+      "raw_extraction": {
+        "key_ideas": [
+          "ChatGPT can be used as a versatile tool for marketers to generate content ideas and enhance user experience",
+          "Conversational AI in marketing can create a sense of connection and trust with the audience",
+          "ChatGPT can assist in content creation, from writing scripts to brainstorming social media post ideas"
+        ],
+        "primary_audience": "The target reader is likely a marketer or business owner looking to leverage ChatGPT for their marketing activities",
+        "content_tone": "educational",
+        "suggested_cta": "Explore how ChatGPT can enhance your marketing strategy and get started with creative content ideas",
+        "sensitive_topics": [
+          "competitor names"
+        ],
+        "confidence": "high"
+      },
+      "duration_seconds": 7.793301820755005,
+      "llm_provider": "groq",
+      "llm_model": "llama-3.3-70b-versatile"
+    }
+  },
+  {
+    "index": 2,
+    "url": "https://www.singlegrain.com/blog/ms/ai-seo/",
+    "url_truncated": ".../ai-seo",
+    "status": "review",
+    "posts_generated": 3,
+    "flags_count": 2,
+    "linkedin_chars": 282,
+    "twitter_chars": 132,
+    "instagram_chars": 154,
+    "all_confidences": [
+      "high",
+      "high",
+      "high"
+    ],
+    "duration_seconds": 8.119918823242188,
+    "llm_provider": "groq",
+    "result": {
+      "run_id": "ea328349-ed19-40af-ada5-5e04c2ed861f",
+      "status": "review",
+      "posts": [
+        {
+          "platform": "linkedin",
+          "content": "What if AI could amplify your search visibility by up to 300%? Single Grain's AI-powered SEO approach leverages cutting-edge artificial intelligence to drive measurable organic growth. Combining human expertise with AI capabilities delivers results. Get Started with AI-Enhanced SEO",
+          "char_count": 282,
+          "hashtags": [
+            "AIEnhancedSEO",
+            "SearchEngineOptimization",
+            "DigitalMarketing"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "twitter",
+          "content": "Boost search visibility by 300% with AI-powered SEO. Stay ahead of algorithm changes and competitors with measurable organic growth.",
+          "char_count": 132,
+          "hashtags": [
+            "AISEO"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "instagram",
+          "content": "Boost search visibility by 25% with AI-powered SEO. Combining human expertise with AI delivers measurable organic growth. Get Started with AI-Enhanced SEO",
+          "char_count": 154,
+          "hashtags": [
+            "AIEnhancedSEO",
+            "SearchEngineOptimization",
+            "DigitalMarketingGrowth",
+            "OrganicSearchResults",
+            "SEOTips"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "flags": [
+        {
+          "reason": "SENSITIVE_TOPICS_DETECTED",
+          "stage": "extract",
+          "detail": "competitor names"
+        },
+        {
+          "reason": "SENSITIVE_TOPICS_PRESENT",
+          "stage": "validate",
+          "detail": "competitor names"
+        }
+      ],
+      "raw_extraction": {
+        "key_ideas": [
+          "Single Grain's AI-powered SEO approach leverages cutting-edge artificial intelligence to amplify search visibility",
+          "AI-enhanced SEO is necessary to stay ahead of algorithm changes and competitors",
+          "Combining human expertise with AI capabilities delivers measurable organic growth"
+        ],
+        "primary_audience": "Businesses and marketers looking to improve their search engine optimization and stay ahead of the competition",
+        "content_tone": "promotional",
+        "suggested_cta": "Get Started with AI-Enhanced SEO",
+        "sensitive_topics": [
+          "competitor names"
+        ],
+        "confidence": "high"
+      },
+      "duration_seconds": 8.119918823242188,
+      "llm_provider": "groq",
+      "llm_model": "llama-3.3-70b-versatile"
+    }
+  },
+  {
+    "index": 3,
+    "url": "https://www.singlegrain.com/blog/ms/content-marketing/",
+    "url_truncated": ".../content-marketing",
+    "status": "review",
+    "posts_generated": 3,
+    "flags_count": 2,
+    "linkedin_chars": 380,
+    "twitter_chars": 138,
+    "instagram_chars": 195,
+    "all_confidences": [
+      "high",
+      "high",
+      "high"
+    ],
+    "duration_seconds": 7.560431480407715,
+    "llm_provider": "groq",
+    "result": {
+      "run_id": "e34d2c49-4516-4320-9271-f8d33ddf2476",
+      "status": "review",
+      "posts": [
+        {
+          "platform": "linkedin",
+          "content": "What drives 80% of students to choose one university over another? Effective content marketing strategies. By incorporating storytelling and focusing on emotional connections, educational institutions can increase engagement by 300% and attract top talent. Develop a content marketing strategy that showcases your institution's unique story and resonates with your target audience",
+          "char_count": 380,
+          "hashtags": [
+            "ContentMarketing",
+            "EducationMarketing",
+            "UniversityRecruitment"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "twitter",
+          "content": "Universities: 80% of students consider emotional connections when choosing a school. Focus on storytelling to attract and retain students.",
+          "char_count": 138,
+          "hashtags": [
+            "#ContentMarketing"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "instagram",
+          "content": "70% of students consider emotional connections when choosing a university. Develop a content marketing strategy that tells your institution's unique story and resonates with your target audience.",
+          "char_count": 195,
+          "hashtags": [
+            "ContentMarketingForEducation",
+            "EducationMarketingStrategy",
+            "UniversityMarketingTips",
+            "StudentEngagement",
+            "EducationSector"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "flags": [
+        {
+          "reason": "SENSITIVE_TOPICS_DETECTED",
+          "stage": "extract",
+          "detail": "budget cuts, university rankings"
+        },
+        {
+          "reason": "SENSITIVE_TOPICS_PRESENT",
+          "stage": "validate",
+          "detail": "budget cuts, university rankings"
+        }
+      ],
+      "raw_extraction": {
+        "key_ideas": [
+          "Effective content marketing strategies are crucial for educational institutions to attract and retain students",
+          "Storytelling is a key factor in making content go viral and resonating with the target audience",
+          "Universities need to adapt to the changing ways students consume information and focus on emotional connections rather than just listing facts"
+        ],
+        "primary_audience": "The target reader is likely a marketing professional or administrator in the education sector, looking to improve their institution's content marketing strategy.",
+        "content_tone": "educational",
+        "suggested_cta": "Develop a content marketing strategy that showcases your institution's unique story and resonates with your target audience",
+        "sensitive_topics": [
+          "budget cuts",
+          "university rankings"
+        ],
+        "confidence": "high"
+      },
+      "duration_seconds": 7.560431480407715,
+      "llm_provider": "groq",
+      "llm_model": "llama-3.3-70b-versatile"
+    }
+  },
+  {
+    "index": 4,
+    "url": "https://www.singlegrain.com/blog/ms/social-media-marketing/",
+    "url_truncated": ".../social-media-marketing",
+    "status": "review",
+    "posts_generated": 3,
+    "flags_count": 2,
+    "linkedin_chars": 333,
+    "twitter_chars": 158,
+    "instagram_chars": 247,
+    "all_confidences": [
+      "high",
+      "high",
+      "high"
+    ],
+    "duration_seconds": 8.060335874557495,
+    "llm_provider": "groq",
+    "result": {
+      "run_id": "c6b1e729-c518-4eca-b7e4-acbad424cfab",
+      "status": "review",
+      "posts": [
+        {
+          "platform": "linkedin",
+          "content": "What if businesses could adapt to changing buyer behavior and drive significant ROI and revenue growth? AI-native marketing execution can help achieve this, with some businesses experiencing +112.5% increase in total sales. Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+          "char_count": 333,
+          "hashtags": [
+            "AInativeMarketing",
+            "DigitalMarketingStrategy",
+            "MarketingInnovation"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "twitter",
+          "content": "AI-native marketing execution drives significant ROI & revenue growth. Scale results without increasing headcount. Schedule a consultation to discuss benefits",
+          "char_count": 158,
+          "hashtags": [
+            "#AInativeMarketing"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "instagram",
+          "content": "Drive significant ROI and revenue growth with AI-native marketing execution. Implementing AI systems can increase total sales by +112.5%. Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+          "char_count": 247,
+          "hashtags": [
+            "AINativeMarketing",
+            "DigitalMarketingStrategy",
+            "MarketingInnovation",
+            "AIDrivenGrowth",
+            "MarketingAutomation"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "flags": [
+        {
+          "reason": "SENSITIVE_TOPICS_DETECTED",
+          "stage": "extract",
+          "detail": "health claims (none), legal statements (none), pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month), competitor names (none), unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales), controversial opinions (none)"
+        },
+        {
+          "reason": "SENSITIVE_TOPICS_PRESENT",
+          "stage": "validate",
+          "detail": "health claims (none), legal statements (none), pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month), competitor names (none), unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales), controversial opinions (none)"
+        }
+      ],
+      "raw_extraction": {
+        "key_ideas": [
+          "AI-native marketing execution is crucial for businesses to adapt to changing buyer behavior",
+          "AI-driven digital marketing agencies can help businesses scale results without increasing headcount",
+          "Implementing AI systems and agents in marketing operations can drive significant ROI and revenue growth"
+        ],
+        "primary_audience": "The target reader is likely a marketing professional or business leader looking to leverage AI in their marketing strategy.",
+        "content_tone": "professional",
+        "suggested_cta": "Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+        "sensitive_topics": [
+          "health claims (none)",
+          "legal statements (none)",
+          "pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month)",
+          "competitor names (none)",
+          "unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales)",
+          "controversial opinions (none)"
+        ],
+        "confidence": "high"
+      },
+      "duration_seconds": 8.060335874557495,
+      "llm_provider": "groq",
+      "llm_model": "llama-3.3-70b-versatile"
+    }
+  },
+  {
+    "index": 5,
+    "url": "https://www.singlegrain.com/blog/ms/email-marketing/",
+    "url_truncated": ".../email-marketing",
+    "status": "review",
+    "posts_generated": 3,
+    "flags_count": 2,
+    "linkedin_chars": 333,
+    "twitter_chars": 144,
+    "instagram_chars": 247,
+    "all_confidences": [
+      "high",
+      "high",
+      "high"
+    ],
+    "duration_seconds": 10.31969141960144,
+    "llm_provider": "groq",
+    "result": {
+      "run_id": "d031929c-8c61-4034-a38c-7d0fd49d3ee0",
+      "status": "review",
+      "posts": [
+        {
+          "platform": "linkedin",
+          "content": "What if businesses could adapt to changing buyer behavior and drive significant ROI and revenue growth? AI-native marketing execution can help achieve this, with some businesses experiencing +112.5% increase in total sales. Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+          "char_count": 333,
+          "hashtags": [
+            "AInativeMarketing",
+            "DigitalMarketingStrategy",
+            "MarketingInnovation"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "twitter",
+          "content": "AI-native marketing execution drives significant ROI and revenue growth. Scale results without increasing headcount. Schedule a consultation now",
+          "char_count": 144,
+          "hashtags": [
+            "#AInativeMarketing"
+          ],
+          "confidence": "high"
+        },
+        {
+          "platform": "instagram",
+          "content": "Drive significant ROI and revenue growth with AI-native marketing execution. Implementing AI systems can increase total sales by +112.5%. Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+          "char_count": 247,
+          "hashtags": [
+            "AINativeMarketing",
+            "DigitalMarketingStrategy",
+            "MarketingInnovation",
+            "AIDrivenGrowth",
+            "MarketingAutomation"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "flags": [
+        {
+          "reason": "SENSITIVE_TOPICS_DETECTED",
+          "stage": "extract",
+          "detail": "health claims (none), legal statements (none), pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month), competitor names (none), unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales), controversial opinions (none)"
+        },
+        {
+          "reason": "SENSITIVE_TOPICS_PRESENT",
+          "stage": "validate",
+          "detail": "health claims (none), legal statements (none), pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month), competitor names (none), unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales), controversial opinions (none)"
+        }
+      ],
+      "raw_extraction": {
+        "key_ideas": [
+          "AI-native marketing execution is crucial for businesses to adapt to changing buyer behavior",
+          "AI-driven digital marketing agencies can help businesses scale results without increasing headcount",
+          "Implementing AI systems and agents in marketing operations can drive significant ROI and revenue growth"
+        ],
+        "primary_audience": "The target reader is likely a marketing professional or business leader looking to leverage AI in their marketing strategy.",
+        "content_tone": "professional",
+        "suggested_cta": "Schedule a consultation with a senior strategist to discuss how AI-native marketing can benefit your business",
+        "sensitive_topics": [
+          "health claims (none)",
+          "legal statements (none)",
+          "pricing mentions ($1B+ revenue influenced, $126,000 worth of SQLs per month)",
+          "competitor names (none)",
+          "unverified statistics (some statistics may be considered unverified, e.g. +112.5% increase in total sales)",
+          "controversial opinions (none)"
+        ],
+        "confidence": "high"
+      },
+      "duration_seconds": 10.31969141960144,
+      "llm_provider": "groq",
+      "llm_model": "llama-3.3-70b-versatile"
+    }
+  }
+]
