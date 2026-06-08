@@ -8,6 +8,22 @@ Built with: LangGraph · Groq (llama-3.3-70b) · FastAPI · Tailwind CSS · Dock
 
 ---
 
+## Part 1 — Domain and Background
+
+**Preferred area:** AI engineering and automation — building systems that make repetitive, judgment-heavy workflows reliable enough to run without constant human intervention.
+
+**Why Single Grain:** Single Grain sits at the exact intersection I care about — a content operation that runs at scale and is actively replacing manual steps with AI. The coordinator workflow in this brief (45 minutes per blog post, 4x/week, manual caption writing across three platforms) is the kind of concrete, measurable problem I build for. Not "AI strategy" — actual hours saved, actual posts shipped.
+
+**Notable prior work:** [evalflow](https://github.com/emartai/evalflow) — a pytest-style regression testing framework for LLM prompts. Catches prompt quality regressions before they reach production by running structured assertions against model outputs. Built it because llm-quality-gate ([github.com/emart29/llm-quality-gate](https://github.com/emart29/llm-quality-gate)) showed me that teams were manually spot-checking LLM outputs in staging — the same way they used to manually test software before CI existed. Also built [ragwell](https://github.com/emart29/ragwell), a production RAG pipeline with semantic chunking and multiple retrieval strategies, and [playagent](https://github.com/emartai/playagent), an agent testing framework for catching agent failures before users do.
+
+---
+
+## Part 3 — Personal Automation
+
+The most tedious recurring task I've done is reviewing LLM prompt outputs after model updates — opening 40–50 generated responses one by one, comparing them to expected behavior, and logging which ones regressed. It's pure pattern recognition that doesn't require judgment, just attention, and it took 2–3 hours every time a provider pushed a model version. I automated it by building evalflow: define expected output properties as assertions, run them against a test suite on every model update, get a pass/fail report in under a minute. The part that stays human is deciding what the assertions should be in the first place — that requires knowing what "good" looks like for a specific client and use case, which is judgment the tool can't replace.
+
+---
+
 ## Screenshots
 
 **Approved** — clean post, 0 flags, auto-published
